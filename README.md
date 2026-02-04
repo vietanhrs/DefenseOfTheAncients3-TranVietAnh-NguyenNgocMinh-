@@ -7,6 +7,16 @@ Nguyen Ngoc Minh
 ## Description
 OOP Game Project
 
+## How to Run in IntelliJ
+1.  **Import Maven Changes**:
+    *   If IntelliJ detects the `pom.xml`, click the **Load Maven Changes** icon (tiny refresh icon in the Maven tool window or popup).
+    *   Alternatively, right-click `pom.xml` and select **Add as Maven Project**.
+2.  **Wait for Indexing**: IntelliJ will download the LWJGL libraries.
+3.  **Run the Game**:
+    *   Open `src/main/java/MainWindow.java`.
+    *   Click the **Run** (green triangle) icon next to the `main` method.
+    *   *Note: Ensure the generic "Working directory" in the Run Configuration is set to the project root (default).*
+
 ## Project structure
 ```bash
 .

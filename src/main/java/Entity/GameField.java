@@ -40,7 +40,7 @@ public class GameField {
                     if (mapInfo.get(i).get(j) == 8) {
                         target = new  Target(j * 48, i * 48);
                     }
-                    else {
+                    else if (mapInfo.get(i).get(j) != 0) {
                         int modeBitMask = 0;
                         for (int dirIndex = 0; dirIndex < 4; dirIndex++) {
                             if ((i + direction[dirIndex][0] >= 0) && (i + direction[dirIndex][0] < mapInfo.size()))
